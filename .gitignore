@@ -1,11 +1,11 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+# Compiled & Executables
+*.amx
+*.exe
 
-# Other files and folders
-.settings/
+# Pawno files
+pawno/*
+!pawno/include
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Others
+samp-license.txt
+samp.ban
